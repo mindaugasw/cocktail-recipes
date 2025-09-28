@@ -1,4 +1,4 @@
-# cocktail-db-frontend
+# cocktail-recipes
 
 ### Building website
 

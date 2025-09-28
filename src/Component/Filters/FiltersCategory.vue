@@ -14,6 +14,7 @@ defineEmits<{
 </script>
 
 <template>
+<!-- @vue-ignore TS2345: Argument of type '{ open: boolean; onToggle: (__0_0: any) => void; }' is not assignable to parameter of type 'DetailsHTMLAttributes & ReservedProps & Record<string, unknown>' -->
 <details
     :open="isOpen"
     @toggle="$emit('categoryToggle', $event.newState === 'open')"

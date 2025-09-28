@@ -3,7 +3,7 @@ import {fileURLToPath, URL} from 'node:url'
 import {defineConfig} from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
-import VueDevTools from 'vite-plugin-vue-devtools'
+// import VueDevTools from 'vite-plugin-vue-devtools'
 
 // This can be used to put entire app under a speicfic path.
 // E.g. for GitHub Pages hosting, without a custom domain,
@@ -19,7 +19,7 @@ export default defineConfig({
     plugins: [
         vue(),
         vueJsx(),
-        VueDevTools(),
+        // VueDevTools(), // dev tools are not loading
     ],
     resolve: {
         alias: {
